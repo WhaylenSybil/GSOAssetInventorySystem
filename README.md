@@ -1,2 +1,1 @@
-# GSOAssetInventorySystem
-General Services Office Asset Division
+<?php header("Location: login/login.php");?>

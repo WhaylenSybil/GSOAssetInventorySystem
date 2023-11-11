@@ -1,0 +1,45 @@
+#printing{
+	position: fixed;
+	width: 90%;
+	visibility: hidden;
+}
+#bsu{
+	height: 1in;
+	width: 1in;
+	float: left;
+	
+}
+#sls{
+	height: 1in;
+	width: 1in;
+	 float: right;
+	
+    right: 0px;
+}
+
+
+#printing p {
+	position: relative;
+}
+#pbody{
+	font-size: 27px;
+}
+
+@media print {
+	body{
+		visibility: hidden;
+	}
+	 p{
+	 	visibility: visible;
+	 	font-weight: normal;
+	 	font-size: 15px;
+	 }
+	#printing{
+		visibility: visible;
+		margin-left: .5in;
+		margin-right: .5in;
+		margin-top: .1in;
+	}
+	
+
+}
